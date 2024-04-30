@@ -1,5 +1,5 @@
 # autoeportal
-hhu校园网自动认证（远程防断网）
+hhu校园网自动认证（远程防断网）**完整代码见autoeportal.py**
 ```python
 #所需第三方库
 import time
@@ -47,3 +47,4 @@ driver.quit()
 pyinstaller -F -p D:\python311\lib\site-packages -i D:\pythonProject_AUTOEPORTAL\favicon_logosc\favicon.ico autoeportal.py
 ```
 5. 将打包形成的可执行程序加入到计算机事件或系统自启动文件夹即可\
+
